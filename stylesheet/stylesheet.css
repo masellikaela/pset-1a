@@ -1,0 +1,22 @@
+img {
+    border: 3px solid purple;
+    padding-bottom: 3px
+    }
+
+table, th, td {
+    border: 1.5px solid green;
+    padding-bottom: 4.2px
+    }
+
+img {
+    border: 3px solid purple;
+    padding-bottom: 3px
+      }
+
+div.a {
+    text-align: center;
+      }
+
+body {
+  background-color: lightgray
+}
