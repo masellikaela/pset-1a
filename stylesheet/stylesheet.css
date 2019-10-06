@@ -1,6 +1,15 @@
+*{
+  color:white
+}
+.the-best{
+  color: purple;
+}
 table, th, td {
-    border: 1.5px solid green;
-    padding-bottom: 4.2px
+    border: 1.5px solid white;
+    padding: 2px
+    }
+td.first {
+      font-weight:bold;
     }
 img {
     border: 3px solid purple;
@@ -12,70 +21,22 @@ body {
   background-color: #3F837C
 }
 p {
-  color: white;
   font-size: 14px;
   font-family: verdana;
 }
-a {
-  color: white;
-  font-size: 14px;
-  font-family: verdana;
-}
-
 h1 {
-  color: white;
   font-size: 20px;
   font-family: verdana;
+  text-decoration: italic
 }
 h2 {
-  color: white;
   font-size: 18px;
   font-family: verdana;
 }
-h4 {
-  color: white;
-  font-size: 14px;
-  font-family: verdana;
-}
-  h5 {
-    color: white;
+h5 {
     font-size: 9px;
     font-family: verdana;
-}
-li {
-  color: white;
-  font-size: 14px;
-  font-family: verdana;
-}
-  footer {
-    color: white;
-    font-size: 14px;
-    font-family: verdana;
-}
-h1 {
-  color:white;
-}
-h2 {
-  color:white;
-}
-h3 {
-  color:white;
-}
-h4 {
-  color:white;
-}
-li {
-  color:white;
-}
-footer {
-  color:white;
-}
-th {
-  color: white;
-}
-tr {
-  color: white;
-}
-td {
-  color: white;
+  }
+p.childhood {
+  text-indent: 50px
 }
