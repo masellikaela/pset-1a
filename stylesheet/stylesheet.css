@@ -2,17 +2,18 @@
   color:white
 }
 .the-best{
-  color: purple;
+  color: lightblue;
 }
 table, th, td {
-    border: 1.5px solid white;
+    border: 1px solid white;
     padding: 2px
+    font-family: verdana
     }
 td.first {
       font-weight:bold;
     }
 img {
-    border: 3px solid purple;
+    border: 3px solid lightblue;
       }
 div.a {
     text-align: center;
@@ -20,7 +21,7 @@ div.a {
 body {
   background-color: #3F837C
 }
-p {
+p, li {
   font-size: 14px;
   font-family: verdana;
 }
@@ -34,9 +35,31 @@ h2 {
   font-family: verdana;
 }
 h5 {
-    font-size: 9px;
+    font-size: 12px;
     font-family: verdana;
   }
-p.childhood {
+.childhood {
   text-indent: 50px
+}
+a {
+  font-family: verdana;
+}
+#home{
+  text-indent: 40px
+}
+#height{
+  color: #ffcc99;
+  text-align: center
+}
+#movies{
+   border: 5px;
+   border-style: solid;
+   border-color: #ffcc99;
+   padding: 3.4px;
+   text-align: center
+}
+.kids{
+  text-align: left;
+  margin-left: 300px;
+  list-style-position: inside;
 }
