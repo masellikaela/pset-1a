@@ -1,22 +1,42 @@
-img {
-    border: 3px solid purple;
-    padding-bottom: 3px
-    }
-
+*{
+  color:white
+}
+.the-best{
+  color: purple;
+}
 table, th, td {
-    border: 1.5px solid green;
-    padding-bottom: 4.2px
+    border: 1.5px solid white;
+    padding: 2px
     }
-
+td.first {
+      font-weight:bold;
+    }
 img {
     border: 3px solid purple;
-    padding-bottom: 3px
       }
-
 div.a {
     text-align: center;
       }
-
 body {
-  background-color: lightgray
+  background-color: #3F837C
+}
+p {
+  font-size: 14px;
+  font-family: verdana;
+}
+h1 {
+  font-size: 20px;
+  font-family: verdana;
+  text-decoration: italic
+}
+h2 {
+  font-size: 18px;
+  font-family: verdana;
+}
+h5 {
+    font-size: 9px;
+    font-family: verdana;
+  }
+p.childhood {
+  text-indent: 50px
 }
