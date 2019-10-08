@@ -1,42 +1,80 @@
 *{
   color:white
 }
-.the-best{
-  color: purple;
-}
-table, th, td {
-    border: 1.5px solid white;
-    padding: 2px
+table, th, td{
+    border: 1px solid white;
+    padding: 2px;
+    font-family: verdana
     }
-td.first {
-      font-weight:bold;
+body{
+   background-color: #3F837C
     }
-img {
-    border: 3px solid purple;
+h1{
+    font-size: 20px;
+    font-family: verdana;
+    text-decoration: italic
+    }
+h2{
+    font-size: 18px;
+    font-family: verdana;
+    }
+h5{
+    font-size: 12px;
+    font-family: verdana;
       }
+img{
+    border: 3px solid lightblue;
+    }
+a, p{
+    font-family: verdana;
+    }
+.the-best{
+  color: lightblue;
+    }
+.childhood{
+  text-indent: 50px
+    }
+.kids{
+   text-align: left;
+   margin-left: 300px;
+   list-style-position: inside;
+      }
+#home{
+  text-indent: 40px
+      }
+#height{
+  color: #ffcc99;
+  text-align: center
+      }
+#movies{
+   border: 5px;
+   border-style: dotted;
+   border-color: #ffcc99;
+   padding: 3.4px;
+   text-align: center
+        }
+a[title]{
+   color:white;
+        }
+a[href="https://www.oratoryprep.org/"]{
+    color: #ffcc99;
+        }
+a[href="https://www.amda.edu/about"]{
+    color: #ffcc99;
+        }
+a:visited{
+    color: lightblue;
+        }
+td.first{
+    font-weight:bold;
+    }
 div.a {
     text-align: center;
       }
-body {
-  background-color: #3F837C
-}
-p {
-  font-size: 14px;
-  font-family: verdana;
-}
-h1 {
-  font-size: 20px;
-  font-family: verdana;
-  text-decoration: italic
-}
-h2 {
-  font-size: 18px;
-  font-family: verdana;
-}
-h5 {
-    font-size: 9px;
+div ul{
+    font-size: 14px;
     font-family: verdana;
-  }
-p.childhood {
-  text-indent: 50px
-}
+      }
+div p{
+    font-family: verdana;
+      }
